@@ -19,7 +19,11 @@ IUSE=""
 RDEPEND=">=dev-python/numpy-1.13
 		 >=dev-python/scipy-0.18
 		 >=dev-python/cython-0.29
-		 >=dev-python/setuptools-30.3.0"
+		 >=dev-python/setuptools-30.3.0
+		 dev-python/pandas
+		 dev-python/h5py
+		 dev-python/matplotlib
+		 dev-pyton/pyyaml"
 
 DEPEND="${RDEPEND}"
 
