@@ -23,7 +23,7 @@ RDEPEND=">=dev-python/numpy-1.13
 		 dev-python/pandas
 		 dev-python/h5py
 		 dev-python/matplotlib
-		 dev-pyton/pyyaml"
+		 dev-python/pyyaml"
 
 DEPEND="${RDEPEND}"
 
