@@ -3,8 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_11 )
-inherit python-single-r1
+PYTHON_COMPAT=( python3_13 )
+inherit distutils-r1
 inherit git-r3
 
 DESCRIPTION="Tensor Network Python"
@@ -29,10 +29,4 @@ DEPEND="${RDEPEND}"
 
 src_configure() {
 	bash ./compile.sh
-}
-
-src_install() {
-	python_domodule tenpy
-	python_domodule build
-	#python_doheader ${S}/tenpy/_version.py
 }
